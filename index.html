@@ -40,29 +40,51 @@ text-align:center;
 padding:20px;
 }
 
-.hero img{
+  .logo-container{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:50px;
+flex-wrap:wrap;
+margin-bottom:40px;
+}
+
+.member{
+text-align:center;
+}
+
+.member img{
 width:180px;
 height:180px;
 border-radius:50%;
-border:4px solid #b14cff;
 object-fit:cover;
+border:4px solid #b14cff;
 box-shadow:
 0 0 20px #b14cff,
 0 0 40px #b14cff,
 0 0 80px #b14cff;
 }
 
-.hero h2{
-font-size:3rem;
-margin-top:20px;
-color:#b14cff;
-text-shadow:0 0 20px #b14cff;
+.member h3{
+margin-top:15px;
+color:#00ffff;
 }
 
-.hero p{
-margin-top:10px;
+.hero h1{
+font-size:60px;
+color:#b14cff;
+text-shadow:
+0 0 10px #b14cff,
+0 0 20px #b14cff,
+0 0 40px #b14cff;
+}
+
+.tagline{
+margin-top:15px;
+font-size:22px;
 color:#00ffff;
-font-size:1.2rem;
+text-shadow:
+0 0 10px #00ffff;
 }
 
 .section{
@@ -137,9 +159,27 @@ margin-top:40px;
 </header>
 
 <section class="hero">
-<img src="IMG-20260604-WA0006.jpg" alt="Logo">
-<h2>Web Developers</h2>
-<p>Building Modern Websites Together</p>
+
+<div class="logo-container">
+
+<div class="member">
+<img src="brother-logo.jpg" alt="Brother Logo">
+<h3>Armaan Sudamaniya</h3>
+</div>
+
+<div class="member">
+<img src="aleem-logo.jpg" alt="Aleem Logo">
+<h3>Aleem Sudamaniya</h3>
+</div>
+
+</div>
+
+<h1>Sudamaniya Brothers</h1>
+
+<p class="tagline">
+Web Developers • Designers • Creators
+</p>
+
 </section>
 
 <section class="section">
