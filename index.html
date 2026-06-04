@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Armaan Sudamaniya</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:
+radial-gradient(circle at top left,#2a0845 0%,transparent 30%),
+radial-gradient(circle at bottom right,#16213e 0%,transparent 30%),
+linear-gradient(135deg,#050505,#0f0f18,#050505);
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:40px 10%;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#b14cff
+}
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
+padding:60px 10%;
+}
+
+.hero-text h1{
+font-size:60px;
+color:#b14cff;
+text-shadow:
+0 0 10px #b14cff,
+0 0 20px #b14cff,
+0 0 40px #b14cff,
+0 0 80px #b14cff;
+}
+
+.hero-text span{
+color:#b14cff;
+}
+
+.hero-text h3{
+margin-top:10px;
+font-size:24px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#b14cff;
+color:white;
+text-decoration:none;
+border-radius:25px;
+}
+
+.hero img{
+width:220px;
+height:220px;
+margin-top:80px;
+border-radius:50%;
+border:5px solid #b14cff;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px 10%;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+padding:25px;
+border-radius:10px;
+}
+
+.about{
+padding:60px 10%;
+}
+
+.about h2{
+color:#ff8800;
+text-shadow:
+0 0 10px #ff8800,
+0 0 20px #ff8800,
+0 0 40px #ff8800;
+}
+
+.skills{
+padding:60px 10%;
+}
+
+.skill{
+margin-bottom:20px;
+}
+
+.bar{
+height:10px;
+background:#333;
+border-radius:10px;
+}
+
+.fill{
+height:10px;
+background:#b14cff;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+}
+
+  .logo,
+h1 span,
+h2,
+.btn{
+    text-shadow: 0 0 10px #b14cff,
+                 0 0 20px #b14cff,
+                 0 0 40px #b14cff;
+}
+
+.hero img{
+    box-shadow: 0 0 20px #b14cff,
+                0 0 40px #b14cff;
+}
+
+  .cards .card:nth-child(1) h3{
+color:#00ffff;
+text-shadow:0 0 15px #00ffff;
+}
+
+.cards .card:nth-child(2) h3{
+color:#ff4dff;
+text-shadow:0 0 15px #ff4dff;
+}
+
+.cards .card:nth-child(3) h3{
+color:#00ff88;
+text-shadow:0 0 15px #00ff88;
+}
+
+  .skills h2{
+color:#00ffff;
+text-shadow:
+0 0 10px #00ffff,
+0 0 20px #00ffff,
+0 0 40px #00ffff;
+  }
+
+  .hero-text h3{
+color:#00ffff;
+text-shadow:
+0 0 10px #00ffff,
+0 0 20px #00ffff,
+0 0 40px #00ffff;
+  }
+  
+  @media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero img{
+margin-top:50px;
+}
+
+.hero-text h1{
+font-size:48px;
+}
+
+  }
+  
+</style>
+</head>
+
+<body>
+
+</header>
+
+<section class="hero">
+<div class="hero-text">
+ <h1>Armaan <span>Sudamaniya</span></h1>
+
+  <h1>And<span></h1>
+
+ <h1>Aleem <span>Sudamaniya</span></h1>
+<h3>Web Developer</h3>
+</div>
+
+<img src="IMG_4240.jpeg" alt="Armaan Logo">
+</section>
+
+<img src="IMG_4240.jpeg" alt="Alim Logo">
+</section>
+
+<section class="cards">
+<div class="card">
+<h3>Web Design</h3>
+<p>Creating modern websites.</p>
+</div>
+
+<div class="card">
+<h3>Frontend</h3>
+<p>HTML, CSS and JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>Responsive</h3>
+<p>Mobile friendly layouts.</p>
+</div>
+</section>
+
+<section class="about">
+<h2>About Me</h2>
+<p>
+Hey, This is Armaan Sudamaniya and Alim Sudamaniya, a Web Developer passionate about creating modern and responsive websites.
+</p>
+</section>
+
+<section class="skills">
+<h2>Skills</h2>
+
+<div class="skill">
+HTML
+<div class="bar"><div class="fill" style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+CSS
+<div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+JavaScript
+<div class="bar"><div class="fill" style="width:65%"></div></div>
+</div>
+
+</section>
+
+<footer>
+Made with ❤️ by Armaan Sudamaniya and Alim Sudamaniya
+</footer>
+
+</body>
+</html>
